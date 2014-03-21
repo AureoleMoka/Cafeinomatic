@@ -1,0 +1,31 @@
+Caféinomatic - Analyse - Use case - Scénario
+
+Commander un café:
+
+Si client :
+- Le client commande un café
+- Le client est informé de sa facture
+- Le client est facturé
+	- Si crédit  insuffisant
+		- Le client est informés que la commande a était annulé
+	- Si solde suffisant
+		- Le client est informés du bon déroulemnt de l'oppérations
+		
+Si Adhérent :
+- L'adhérent commande un café
+	-Si crédit suffisant
+		- Le serveur décrédite l'adhérent
+	-Si crédit insuffisant
+		- Le serveur en informe l'adhérent
+		
+Faire un café:
+- Le système de vérification récupère les informations sur la quantité des éléments nécessaires à la préparation d'un café:
+	- Eau
+	- Poudre de café
+	- Sucre
+- Le café se préprape
+
+Gérer compte:
+- L'adhérent se connecte sur le serveur
+- Il s'identifie
+- Il consulte et éventuellement modifie les informations qu'il souhaite
